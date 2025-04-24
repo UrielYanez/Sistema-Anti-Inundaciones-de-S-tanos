@@ -2,9 +2,6 @@
 **Autores:** Uriel Yañez Aguayo y Jose Armando Ruano Mascorro  
 *Proyecto final de la materia Aplicaciones de IoT*
 
-## Diagrama del Sistema
-
-
 ---
 
 ## 🌟 Características Clave
@@ -28,6 +25,8 @@ graph TD
     F --> H[Buzzer]
     F --> I[Leds]
 ```
+
+---
 # 📋 Especificaciones Técnicas Detalladas
 ## 🔌 Hardware
 | Componente               | Especificaciones Técnicas               | Ubicación en el Sistema       |
@@ -37,11 +36,28 @@ graph TD
 | HC-SR04 (Ultrasónico)    | Rango: 2-400cm, Precisión: 3mm          | Techo del sótano               |
 | Bomba de Agua            | 5V DC, 5L/min,                          | Punto más bajo del sótano      |
 | Tira LED RGB WS2812B     | 10 LED's                                | Zona de alerta visual          |
+| Buzzer                   | Voltaje: 5V, Frecuencia: 2-4kHz         | Zona de alerta auditiva        |
+| Driver L298N             | Voltaje: 5V                             | Control de bomba de agua       |
+| DHT11                    | Rango: 20-80% HR, 0-50°C, Salida digital| Área central del sóbano        |
+
 
 ## 📊 Dashboard en Node-RED
 ![Imagen de WhatsApp 2025-04-24 a las 13 39 39_191269a1](https://github.com/user-attachments/assets/3b5d07aa-7c9c-40af-a93c-8fbcec5c53c1)
 
-
+---
 
 ## ⚡ Diagrama de Conexiones
-Agregar diagrama
+![Imagen de WhatsApp 2025-04-24 a las 13 50 42_2a27503a](https://github.com/user-attachments/assets/773b3dce-f372-4b82-82df-9fd67702721d)
+
+---
+
+## 🔧 Desarrollo del Prototipo
+![Imagen de WhatsApp 2025-04-24 a las 14 01 47_a097a5b0](https://github.com/user-attachments/assets/253db2f9-d4c9-4d9f-977e-02b377714a09)
+
+![Imagen de WhatsApp 2025-04-24 a las 14 01 43_fd8f6f2f](https://github.com/user-attachments/assets/4c15d0a2-40b0-4569-8aa1-dca9b373511a)
+
+![Imagen de WhatsApp 2025-04-24 a las 14 01 43_00b2398d](https://github.com/user-attachments/assets/2f17ecfe-b21e-4254-847e-92a124317c08)
+
+---
+## 🏆 Resultados Obtenidos
+https://drive.google.com/file/d/13fid7XWJDTRM3HQdsh5ycpNJrDNyhR2i/view?usp=drivesdk
