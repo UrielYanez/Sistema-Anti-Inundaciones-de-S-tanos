@@ -2,7 +2,8 @@
 **Autores:** Uriel Yañez Aguayo y Jose Armando Ruano Mascorro  
 *Proyecto final de la materia Aplicaciones de IoT*
 
-![Diagrama del Sistema](pegar imagen)  
+## Diagrama del Sistema
+
 
 ---
 
@@ -29,15 +30,17 @@ graph TD
 ```
 # 📋 Especificaciones Técnicas Detalladas
 ## 🔌 Hardware
-Componente	Especificaciones Técnicas	Ubicación en el Sistema
-ESP32	WiFi 802.11 b/g/n, Bluetooth 4.2	Unidad central de control
-Sensor de Agua	Voltaje: 3.3-5V, Salida digital	Nivel del piso
-HC-SR04 (Ultrasónico)	Rango: 2-400cm, Precisión: 3mm	Techo del sótano
-Bomba de Agua	12V DC, 5L/min, 3m de carga	Punto más bajo del sótano
-Tira LED RGB	WS2812B, 30 LEDs/m	Zona de alerta visual
+| Componente               | Especificaciones Técnicas               | Ubicación en el Sistema       |
+|--------------------------|-----------------------------------------|--------------------------------|
+| ESP32                    | WiFi 802.11 b/g/n, Bluetooth 4.2        | Unidad central de control      |
+| Sensor de Agua           | Voltaje: 3.3V, Salida Analógica         | Nivel del piso                 |
+| HC-SR04 (Ultrasónico)    | Rango: 2-400cm, Precisión: 3mm          | Techo del sótano               |
+| Bomba de Agua            | 5V DC, 5L/min,                          | Punto más bajo del sótano      |
+| Tira LED RGB WS2812B     | 10 LED's                                | Zona de alerta visual          |
 
 ## 📊 Dashboard en Node-RED
-Agregar captura de la interfaz
+![Imagen de WhatsApp 2025-04-24 a las 13 39 39_191269a1](https://github.com/user-attachments/assets/3b5d07aa-7c9c-40af-a93c-8fbcec5c53c1)
+
 
 
 ## ⚡ Diagrama de Conexiones
