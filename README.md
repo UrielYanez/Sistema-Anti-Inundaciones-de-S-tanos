@@ -52,11 +52,9 @@ graph TD
 ---
 
 ## 🔧 Desarrollo del Prototipo
-![Imagen de WhatsApp 2025-04-24 a las 14 01 47_a097a5b0](https://github.com/user-attachments/assets/253db2f9-d4c9-4d9f-977e-02b377714a09)
-
-![Imagen de WhatsApp 2025-04-24 a las 14 01 43_fd8f6f2f](https://github.com/user-attachments/assets/4c15d0a2-40b0-4569-8aa1-dca9b373511a)
-
-![Imagen de WhatsApp 2025-04-24 a las 14 01 43_00b2398d](https://github.com/user-attachments/assets/2f17ecfe-b21e-4254-847e-92a124317c08)
+<img src="https://github.com/user-attachments/assets/253db2f9-d4c9-4d9f-977e-02b377714a09" style="width:30%; display: inline-block;" alt="Prototipo 1">
+<img src="https://github.com/user-attachments/assets/4c15d0a2-40b0-4569-8aa1-dca9b373511a" style="width:30%; display: inline-block;" alt="Prototipo 2">
+<img src="https://github.com/user-attachments/assets/2f17ecfe-b21e-4254-847e-92a124317c08" style="width:30%; display: inline-block;" alt="Prototipo 3">
 
 ---
 ## 🏆 Resultados Obtenidos
