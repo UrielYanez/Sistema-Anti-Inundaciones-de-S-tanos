@@ -1,0 +1,204 @@
+[
+    {
+        "id": "0566604461bcef57",
+        "type": "tab",
+        "label": "Flow 13",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3ffd05427640ea48",
+        "type": "ui_table",
+        "z": "0566604461bcef57",
+        "group": "547c5dd2c753eda7",
+        "name": "",
+        "order": 1,
+        "width": "10",
+        "height": "9",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 650,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "13c5fe2026bbc820",
+        "type": "postgresql",
+        "z": "0566604461bcef57",
+        "name": "",
+        "query": "INSERT INTO sotano (informacion) VALUES ('{{{msg.payload}}}');",
+        "postgreSQLConfig": "ba354b8b24ef27d7",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "3e20bfba012bedb1"
+            ]
+        ]
+    },
+    {
+        "id": "3e20bfba012bedb1",
+        "type": "debug",
+        "z": "0566604461bcef57",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ad832ff1f1c108a7",
+        "type": "inject",
+        "z": "0566604461bcef57",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "4ee39cdc9e87347a"
+            ]
+        ]
+    },
+    {
+        "id": "4ee39cdc9e87347a",
+        "type": "postgresql",
+        "z": "0566604461bcef57",
+        "name": "",
+        "query": "SELECT * FROM sotano;",
+        "postgreSQLConfig": "ba354b8b24ef27d7",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "3ffd05427640ea48"
+            ]
+        ]
+    },
+    {
+        "id": "894a3250b1205f0a",
+        "type": "mqtt in",
+        "z": "0566604461bcef57",
+        "name": "",
+        "topic": "AU/Proyecto",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "2ccb4ab1dd9f2152",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "13c5fe2026bbc820"
+            ]
+        ]
+    },
+    {
+        "id": "547c5dd2c753eda7",
+        "type": "ui_group",
+        "name": "Evaluación",
+        "tab": "a52f6fee66118381",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ba354b8b24ef27d7",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": 5432,
+        "portFieldType": "num",
+        "database": "aiot",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": 10,
+        "maxFieldType": "num",
+        "idle": 1000,
+        "idleFieldType": "num",
+        "connectionTimeout": 10000,
+        "connectionTimeoutFieldType": "num",
+        "user": "utng",
+        "userFieldType": "str",
+        "password": "1234",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "2ccb4ab1dd9f2152",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.137.166",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a52f6fee66118381",
+        "type": "ui_tab",
+        "name": "BaseDatos",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
