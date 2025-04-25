@@ -1,4 +1,4 @@
-# 🚨 Sistema Anti-Inundaciones de Sótanos ⚡  
+# 🚨 Sistema Anti-Inundaciones de Sótanos   
 **Autores:** Uriel Yañez Aguayo y Jose Armando Ruano Mascorro  
 *Proyecto final de la materia Aplicaciones de IoT*
 
@@ -57,5 +57,11 @@ graph TD
 <img src="https://github.com/user-attachments/assets/2f17ecfe-b21e-4254-847e-92a124317c08" style="width:30%; display: inline-block;" alt="Prototipo 3">
 
 ---
+
+## ⚡ Validación del Proyecto
+
+
+---
+
 ## 🏆 Resultados Obtenidos
-https://drive.google.com/file/d/13fid7XWJDTRM3HQdsh5ycpNJrDNyhR2i/view?usp=drivesdk
+
