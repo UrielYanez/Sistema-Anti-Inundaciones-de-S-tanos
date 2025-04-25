@@ -42,7 +42,12 @@ graph TD
 
 
 ## 📊 Dashboard en Node-RED
-![Imagen de WhatsApp 2025-04-24 a las 13 39 39_191269a1](https://github.com/user-attachments/assets/3b5d07aa-7c9c-40af-a93c-8fbcec5c53c1)
+![Imagen de WhatsApp 2025-04-24 a las 19 01 16_912dd538](https://github.com/user-attachments/assets/0de44c59-898b-4cf5-98f5-8ee001141978)
+![Imagen de WhatsApp 2025-04-24 a las 19 01 31_385ba149](https://github.com/user-attachments/assets/e986c6ef-ca2c-40ab-8e03-b5261f1de81d)
+![Imagen de WhatsApp 2025-04-24 a las 19 06 51_e36d3337](https://github.com/user-attachments/assets/4a4dfbca-aa22-4bd8-ae4d-c5e5693bbfb5)
+
+
+
 
 ---
 
@@ -64,4 +69,4 @@ graph TD
 ---
 
 ## 🏆 Resultados Obtenidos
-
+https://youtu.be/sRgUl2rIDO8?si=QA6XuITk5DwffLi7
